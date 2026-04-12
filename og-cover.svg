@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="coverTitle coverDesc">
-  <title id="coverTitle">North and Ledger social card</title>
+  <title id="coverTitle">Warren Labyrinth social card</title>
   <desc id="coverDesc">Editorial finance blog social preview graphic.</desc>
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -15,8 +15,8 @@
   </g>
   <circle cx="930" cy="170" r="160" fill="#fffaf3" opacity="0.7" />
   <rect x="86" y="86" width="88" height="88" rx="44" fill="#142021" />
-  <path d="M113 149V111h11l16 23v-23h11v38h-11l-16-23v23h-11Z" fill="#fffaf3" />
-  <text x="86" y="258" fill="#142021" font-family="Fraunces, Georgia, serif" font-size="78" font-weight="700">North &amp; Ledger</text>
+  <path d="M106 111h8l8 26 8-26h8l8 26 8-26h8l-13 38h-7l-8-24-8 24h-7l-13-38Z" fill="#fffaf3" />
+  <text x="86" y="258" fill="#142021" font-family="Fraunces, Georgia, serif" font-size="78" font-weight="700">Warren Labyrinth</text>
   <text x="86" y="336" fill="#3f4b4c" font-family="Manrope, Arial, sans-serif" font-size="34">Financial insights, investing guides, and market analysis</text>
   <rect x="86" y="410" width="410" height="82" rx="41" fill="#142021" />
   <text x="136" y="462" fill="#fffaf3" font-family="Manrope, Arial, sans-serif" font-size="30" font-weight="700">SEO-ready editorial finance blog</text>
