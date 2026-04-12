@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="coverTitle coverDesc">
+  <title id="coverTitle">North and Ledger social card</title>
+  <desc id="coverDesc">Editorial finance blog social preview graphic.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbf5ec" />
+      <stop offset="55%" stop-color="#dfeee8" />
+      <stop offset="100%" stop-color="#90b9b2" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)" />
+  <g opacity="0.22">
+    <path d="M0 520 C160 470 250 360 380 390 C530 430 650 250 790 280 C930 310 1040 220 1200 120" fill="none" stroke="#142021" stroke-width="18" />
+    <path d="M0 590 C170 520 290 450 420 470 C540 490 690 340 820 360 C980 384 1090 280 1200 210" fill="none" stroke="#10645c" stroke-width="14" />
+  </g>
+  <circle cx="930" cy="170" r="160" fill="#fffaf3" opacity="0.7" />
+  <rect x="86" y="86" width="88" height="88" rx="44" fill="#142021" />
+  <path d="M113 149V111h11l16 23v-23h11v38h-11l-16-23v23h-11Z" fill="#fffaf3" />
+  <text x="86" y="258" fill="#142021" font-family="Fraunces, Georgia, serif" font-size="78" font-weight="700">North &amp; Ledger</text>
+  <text x="86" y="336" fill="#3f4b4c" font-family="Manrope, Arial, sans-serif" font-size="34">Financial insights, investing guides, and market analysis</text>
+  <rect x="86" y="410" width="410" height="82" rx="41" fill="#142021" />
+  <text x="136" y="462" fill="#fffaf3" font-family="Manrope, Arial, sans-serif" font-size="30" font-weight="700">SEO-ready editorial finance blog</text>
+</svg>

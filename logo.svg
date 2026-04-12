@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-labelledby="logoTitle logoDesc">
+  <title id="logoTitle">North and Ledger logo</title>
+  <desc id="logoDesc">Circular finance blog logo with the letter N.</desc>
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#142021" />
+      <stop offset="100%" stop-color="#10645c" />
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="120" fill="url(#logoGradient)" />
+  <path d="M72 168V72h28l40 60V72h28v96h-28l-40-60v60H72Z" fill="#fffaf3" />
+</svg>
