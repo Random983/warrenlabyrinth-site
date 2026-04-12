@@ -187,9 +187,9 @@ a {
 
 .market-widget-shell {
   padding: 0.9rem 1rem 0.7rem;
-  border: 1px solid #48494B;
+  border: 1px solid rgba(17, 25, 24, 0.08);
   border-radius: 1.7rem;
-  background: #000000;
+  background: #48494B;
   box-shadow: 0 18px 42px rgba(17, 25, 24, 0.08);
 }
 
