@@ -422,7 +422,7 @@ a {
 
 .post-card:hover,
 .post-card:focus-visible {
-  transform: scale(1.03);
+  transform: scale(1.05);
   box-shadow: 0 28px 70px rgba(17, 25, 24, 0.1);
 }
 
