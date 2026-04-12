@@ -154,10 +154,15 @@ a {
   min-height: auto;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: minmax(280px, 0.75fr) minmax(320px, 0.95fr);
+  grid-template-columns: minmax(240px, 0.62fr) minmax(300px, 0.88fr);
   align-items: start;
   gap: 2rem;
   padding: 1.4rem 0 1.2rem;
+}
+
+.hero-copy {
+  padding-left: clamp(1.25rem, 4vw, 4rem);
+  max-width: 36rem;
 }
 
 .section-heading h2,
@@ -185,23 +190,25 @@ a {
 }
 
 .hero-text {
-  max-width: 42rem;
+  max-width: 34rem;
   font-size: 1rem;
   margin: 0.35rem 0 0;
 }
 
 .market-widget-shell {
-  padding: 0.9rem 1rem 0.7rem;
+  padding: 0.8rem 0.9rem 0.6rem;
   border: 1px solid rgba(17, 25, 24, 0.08);
   border-radius: 1.7rem;
   background: #48494B;
   box-shadow: 0 18px 42px rgba(17, 25, 24, 0.08);
+  max-width: 680px;
+  justify-self: end;
 }
 
 .market-widget-shell h2 {
-  margin: 0 0 0.9rem;
+  margin: 0 0 0.7rem;
   font-family: "Fraunces", serif;
-  font-size: 1.5rem;
+  font-size: 1.38rem;
   line-height: 1.05;
   color: #f5f3ef;
 }
@@ -215,7 +222,7 @@ a {
 }
 
 .market-widget {
-  min-height: 156px;
+  min-height: 142px;
   overflow: hidden;
   border-radius: 1rem;
 }
@@ -600,6 +607,11 @@ a {
     min-height: auto;
     padding-top: 1rem;
     grid-template-columns: 1fr;
+  }
+
+  .hero-copy {
+    padding-left: 0;
+    max-width: none;
   }
 
   .post-list {
