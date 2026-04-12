@@ -203,12 +203,12 @@ a {
   font-family: "Fraunces", serif;
   font-size: 1.5rem;
   line-height: 1.05;
-  color: var(--ink);
+  color: #f5f3ef;
 }
 
 .market-widget-label {
   margin: 0 0 0.45rem;
-  color: rgba(17, 25, 24, 0.56);
+  color: rgba(245, 243, 239, 0.65);
   text-transform: uppercase;
   letter-spacing: 0.14em;
   font-size: 0.7rem;
@@ -223,11 +223,11 @@ a {
 .tradingview-widget-copyright {
   margin-top: 0.45rem;
   font-size: 0.78rem;
-  color: rgba(17, 25, 24, 0.44);
+  color: rgba(245, 243, 239, 0.55);
 }
 
 .tradingview-widget-copyright a {
-  color: rgba(17, 25, 24, 0.44);
+  color: rgba(245, 243, 239, 0.55);
 }
 
 .hero-actions {
