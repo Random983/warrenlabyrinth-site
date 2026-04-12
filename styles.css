@@ -28,16 +28,14 @@ html {
 body {
   margin: 0;
   background:
-    radial-gradient(circle at 12% 0%, rgba(24, 87, 79, 0.1), transparent 24%),
-    radial-gradient(circle at 88% 24%, rgba(199, 167, 114, 0.1), transparent 22%),
-    radial-gradient(circle at 50% 78%, rgba(24, 87, 79, 0.05), transparent 26%),
+    radial-gradient(circle at 10% 0%, rgba(24, 87, 79, 0.06), transparent 24%),
     linear-gradient(
       180deg,
       #faf6ef 0%,
-      #f4eee4 22%,
-      #eef1ed 54%,
-      #e8ece8 74%,
-      #ebe3d9 100%
+      #f5eee4 20%,
+      #eee4d7 45%,
+      #e5d7c8 72%,
+      #dbc8b4 100%
     );
   color: var(--ink);
   font-family: "Manrope", sans-serif;
