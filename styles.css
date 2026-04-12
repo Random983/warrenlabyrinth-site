@@ -412,6 +412,7 @@ a {
   border-radius: 1.6rem;
   background: rgba(255, 255, 255, 0.62);
   box-shadow: var(--shadow);
+  transform: translateY(0) scale(1);
   transition: transform 220ms ease, box-shadow 220ms ease, opacity 240ms ease;
 }
 
@@ -422,7 +423,7 @@ a {
 
 .post-card:hover,
 .post-card:focus-visible {
-  transform: scale(1.05);
+  transform: translateY(0) scale(1.05);
   box-shadow: 0 28px 70px rgba(17, 25, 24, 0.1);
 }
 
@@ -499,7 +500,12 @@ a {
 
 .reveal.is-visible {
   opacity: 1;
-  transform: translateY(0);
+  transform: translateY(0) scale(1);
+}
+
+.post-card.reveal.is-visible:hover,
+.post-card.reveal.is-visible:focus-visible {
+  transform: translateY(0) scale(1.05);
 }
 
 .article-shell {
