@@ -270,6 +270,10 @@ a {
   padding: 3rem 0;
 }
 
+.anchor-section {
+  scroll-margin-top: 5.5rem;
+}
+
 .top-latest {
   padding-top: 0.5rem;
 }
@@ -524,6 +528,33 @@ a {
   margin-top: 1.5rem;
 }
 
+.stocks-shell {
+  padding-top: 2rem;
+}
+
+.stocks-directory {
+  width: 100%;
+}
+
+.stocks-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.2rem;
+}
+
+.stock-entry {
+  padding: 1.5rem;
+  border: 1px solid var(--line);
+  border-radius: 1.6rem;
+  background: rgba(255, 255, 255, 0.62);
+  box-shadow: var(--shadow);
+}
+
+.stock-entry h3,
+.stock-entry p {
+  margin-top: 0;
+}
+
 @media (max-width: 980px) {
   .site-header,
   .hero,
@@ -532,7 +563,8 @@ a {
   .band-columns,
   .newsletter,
   .article-related-grid,
-  .editorial-band {
+  .editorial-band,
+  .stocks-grid {
     grid-template-columns: 1fr;
   }
 
