@@ -65,10 +65,12 @@
       </div>
     </div>
     <nav class="top-nav" aria-label="Primary">
-      <a href="#featured">Essay</a>
-      <a href="#categories">Topics</a>
+      <a href="#main-content">Home</a>
+      <a href="#stocks">Individual Stocks</a>
+      <a href="#macro">World News &amp; Markets</a>
       <a href="#latest">Latest</a>
       <a href="#newsletter">Newsletter</a>
+      <a href="#about">About</a>
     </nav>
   </header>
 
@@ -129,17 +131,17 @@
         <h2>Three lanes. Clearer browsing.</h2>
       </div>
       <div class="category-grid">
-        <article>
+        <article id="stocks">
           <h3>Investing</h3>
-          <p>Portfolio construction, dividends, ETFs, long-term strategies, and risk management.</p>
+          <p>Individual stock ideas, valuation thinking, competitive positioning, dividends, and long-term risk management.</p>
         </article>
         <article>
           <h3>Personal Finance</h3>
           <p>Saving systems, debt reduction, cash flow planning, and financial habits that scale.</p>
         </article>
-        <article>
-          <h3>Market Analysis</h3>
-          <p>Interest rates, inflation, economic calendars, sector rotation, and earnings narratives.</p>
+        <article id="macro">
+          <h3>World News &amp; Markets</h3>
+          <p>Interest rates, inflation, geopolitics, economic releases, and how global events filter into equities.</p>
         </article>
       </div>
     </section>
@@ -150,30 +152,24 @@
         <h2>Recent writing, arranged like an editorial archive.</h2>
       </div>
       <div class="post-list">
-        <article class="post-row reveal">
+        <a class="post-card reveal" href="posts/market-volatility.html">
           <p class="post-meta">April 12, 2026 | Investing</p>
-          <div class="post-row-main">
-            <h3><a href="posts/market-volatility.html">How to navigate market volatility without derailing a long-term plan</a></h3>
-            <p>Learn how disciplined asset allocation and measured rebalancing can keep your strategy intact during sharp market swings.</p>
-          </div>
-          <a class="text-link" href="posts/market-volatility.html">Open article</a>
-        </article>
-        <article class="post-row reveal">
+          <h3>How to navigate market volatility without derailing a long-term plan</h3>
+          <p>Learn how disciplined asset allocation and measured rebalancing can keep your strategy intact during sharp market swings.</p>
+          <span class="text-link">Open article</span>
+        </a>
+        <a class="post-card reveal" href="posts/dividend-investing.html">
           <p class="post-meta">April 9, 2026 | Income Strategy</p>
-          <div class="post-row-main">
-            <h3><a href="posts/dividend-investing.html">Dividend investing for beginners: what income investors should watch first</a></h3>
-            <p>A practical introduction to dividend yield, payout ratios, sector concentration, and total return thinking.</p>
-          </div>
-          <a class="text-link" href="posts/dividend-investing.html">Open article</a>
-        </article>
-        <article class="post-row reveal">
+          <h3>Dividend investing for beginners: what income investors should watch first</h3>
+          <p>A practical introduction to dividend yield, payout ratios, sector concentration, and total return thinking.</p>
+          <span class="text-link">Open article</span>
+        </a>
+        <a class="post-card reveal" href="posts/economic-calendar.html">
           <p class="post-meta">April 5, 2026 | Macro Trends</p>
-          <div class="post-row-main">
-            <h3><a href="posts/economic-calendar.html">Why the economic calendar matters more than daily market noise</a></h3>
-            <p>Use inflation prints, central-bank meetings, and labor data to frame the week before headlines reshape investor sentiment.</p>
-          </div>
-          <a class="text-link" href="posts/economic-calendar.html">Open article</a>
-        </article>
+          <h3>Why the economic calendar matters more than daily market noise</h3>
+          <p>Use inflation prints, central-bank meetings, and labor data to frame the week before headlines reshape investor sentiment.</p>
+          <span class="text-link">Open article</span>
+        </a>
       </div>
     </section>
 
@@ -198,6 +194,15 @@
         <input id="email" name="email" type="email" placeholder="Enter your email address">
         <button type="submit" class="button button-primary">Subscribe</button>
       </form>
+    </section>
+    <section id="about" class="editorial-band about-band">
+      <div class="band-lead">
+        <p class="eyebrow">About</p>
+        <h2>Warren Labyrinth is built to explain stocks and macro news in plain English.</h2>
+      </div>
+      <div class="band-columns">
+        <p>The goal is simple: clearer writing on individual companies, cleaner context for world events, and practical market interpretation that helps readers make more grounded decisions.</p>
+      </div>
     </section>
   </main>
 
