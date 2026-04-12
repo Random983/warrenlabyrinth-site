@@ -476,6 +476,13 @@ a {
   color: var(--muted);
 }
 
+.footer-disclaimer {
+  margin: 0;
+  max-width: 46rem;
+  color: var(--muted);
+  font-size: 0.94rem;
+}
+
 .reveal {
   opacity: 0;
   transform: translateY(22px);
@@ -522,6 +529,20 @@ a {
 
 .article-back {
   margin-bottom: 1.5rem;
+}
+
+.article-disclaimer {
+  margin-top: 1.25rem;
+  padding: 1rem 1.1rem;
+  border: 1px solid var(--line);
+  border-radius: 1rem;
+  background: rgba(255, 255, 255, 0.54);
+}
+
+.article-disclaimer p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.95rem;
 }
 
 .article-related-grid {
