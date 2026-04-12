@@ -187,10 +187,10 @@ a {
 
 .market-widget-shell {
   padding: 0.9rem 1rem 0.7rem;
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(17, 25, 24, 0.08);
   border-radius: 1.7rem;
-  background: linear-gradient(180deg, #1b2324 0%, #141b1c 100%);
-  box-shadow: 0 22px 50px rgba(9, 12, 13, 0.18);
+  background: linear-gradient(180deg, #ece8e1 0%, #e2ddd5 100%);
+  box-shadow: 0 18px 42px rgba(17, 25, 24, 0.08);
 }
 
 .market-widget-shell h2 {
@@ -198,12 +198,12 @@ a {
   font-family: "Fraunces", serif;
   font-size: 1.5rem;
   line-height: 1.05;
-  color: #f4efe8;
+  color: var(--ink);
 }
 
 .market-widget-label {
   margin: 0 0 0.45rem;
-  color: rgba(244, 239, 232, 0.58);
+  color: rgba(17, 25, 24, 0.56);
   text-transform: uppercase;
   letter-spacing: 0.14em;
   font-size: 0.7rem;
@@ -218,11 +218,11 @@ a {
 .tradingview-widget-copyright {
   margin-top: 0.45rem;
   font-size: 0.78rem;
-  color: rgba(244, 239, 232, 0.44);
+  color: rgba(17, 25, 24, 0.44);
 }
 
 .tradingview-widget-copyright a {
-  color: rgba(244, 239, 232, 0.44);
+  color: rgba(17, 25, 24, 0.44);
 }
 
 .hero-actions {
