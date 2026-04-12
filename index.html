@@ -84,6 +84,53 @@
           <a class="button button-secondary" href="#featured">Read Featured Essay</a>
         </div>
       </div>
+      <aside class="market-widget-shell" aria-label="US market indexes">
+        <p class="market-widget-label">Market Tracker</p>
+        <h2>US indexes at a glance</h2>
+        <div class="tradingview-widget-container market-widget">
+          <div class="tradingview-widget-container__widget"></div>
+          <div class="tradingview-widget-copyright">
+            <a href="https://www.tradingview.com/markets/" rel="noopener nofollow" target="_blank">Data by TradingView</a>
+          </div>
+          <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
+          {
+            "title": "US Indexes",
+            "tabs": [
+              {
+                "title": "Overview",
+                "symbols": [
+                  {
+                    "s": "FOREXCOM:SPXUSD",
+                    "d": "S&P 500"
+                  },
+                  {
+                    "s": "FOREXCOM:DJI",
+                    "d": "Dow 30"
+                  }
+                ]
+              }
+            ],
+            "width": "100%",
+            "height": "100%",
+            "showChart": false,
+            "showFloatingTooltip": false,
+            "locale": "en",
+            "plotLineColorGrowing": "#18574f",
+            "plotLineColorFalling": "#8f3f3f",
+            "belowLineFillColorGrowing": "rgba(24, 87, 79, 0.08)",
+            "belowLineFillColorFalling": "rgba(143, 63, 63, 0.08)",
+            "belowLineFillColorGrowingBottom": "rgba(24, 87, 79, 0)",
+            "belowLineFillColorFallingBottom": "rgba(143, 63, 63, 0)",
+            "gridLineColor": "rgba(17, 25, 24, 0.04)",
+            "scaleFontColor": "rgba(98, 105, 104, 1)",
+            "showSymbolLogo": false,
+            "symbolActiveColor": "rgba(24, 87, 79, 0.08)",
+            "colorTheme": "light",
+            "isTransparent": true
+          }
+          </script>
+        </div>
+      </aside>
     </section>
 
     <section id="latest" class="latest-posts top-latest">

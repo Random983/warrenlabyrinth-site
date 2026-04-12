@@ -148,7 +148,10 @@ a {
   width: min(calc(100% - 2rem), 1320px);
   min-height: auto;
   margin: 0 auto;
-  display: block;
+  display: grid;
+  grid-template-columns: minmax(280px, 0.75fr) minmax(320px, 0.95fr);
+  align-items: start;
+  gap: 2rem;
   padding: 1.4rem 0 1.2rem;
 }
 
@@ -180,6 +183,43 @@ a {
   max-width: 42rem;
   font-size: 1rem;
   margin: 0.35rem 0 0;
+}
+
+.market-widget-shell {
+  padding: 1rem 1.1rem 0.8rem;
+  border: 1px solid rgba(17, 25, 24, 0.08);
+  border-radius: 1.7rem;
+  background: rgba(255, 255, 255, 0.48);
+  box-shadow: var(--shadow);
+}
+
+.market-widget-shell h2 {
+  margin: 0 0 0.9rem;
+  font-family: "Fraunces", serif;
+  font-size: 1.5rem;
+  line-height: 1.05;
+}
+
+.market-widget-label {
+  margin: 0 0 0.45rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-size: 0.7rem;
+}
+
+.market-widget {
+  min-height: 220px;
+}
+
+.tradingview-widget-copyright {
+  margin-top: 0.65rem;
+  font-size: 0.78rem;
+  color: var(--muted);
+}
+
+.tradingview-widget-copyright a {
+  color: var(--muted);
 }
 
 .hero-actions {
@@ -494,10 +534,7 @@ a {
   .hero {
     min-height: auto;
     padding-top: 1rem;
-  }
-
-  .hero-visual {
-    min-height: 28rem;
+    grid-template-columns: 1fr;
   }
 
   .post-list {
