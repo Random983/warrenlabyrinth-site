@@ -82,8 +82,12 @@ a {
   top: 0;
   z-index: 10;
   backdrop-filter: blur(16px);
-  background: rgba(17, 25, 24, 0.94);
+  width: 100%;
+  padding-left: clamp(1rem, 4vw, 3.75rem);
+  padding-right: clamp(1rem, 4vw, 3.75rem);
+  background: linear-gradient(180deg, rgba(10, 22, 21, 0.98), rgba(15, 34, 32, 0.97));
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 18px 45px rgba(5, 12, 12, 0.24);
 }
 
 .brand-lockup {
@@ -142,16 +146,15 @@ a {
 
 .hero {
   width: min(calc(100% - 2rem), 1320px);
-  min-height: calc(100svh - 88px);
+  min-height: auto;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(320px, 0.82fr);
+  grid-template-columns: minmax(280px, 0.6fr) minmax(320px, 1fr);
   align-items: center;
-  gap: 3rem;
-  padding: 2.5rem 0 4.75rem;
+  gap: 2rem;
+  padding: 2rem 0 2.5rem;
 }
 
-.hero-copy h1,
 .section-heading h2,
 .feature-copy h3,
 .newsletter h2,
@@ -162,11 +165,6 @@ a {
   line-height: 1.02;
   letter-spacing: -0.03em;
   margin: 0;
-}
-
-.hero-copy h1 {
-  font-size: clamp(3.4rem, 7vw, 6.8rem);
-  max-width: 9ch;
 }
 
 .hero-text,
@@ -182,9 +180,9 @@ a {
 }
 
 .hero-text {
-  max-width: 34rem;
-  font-size: 1.04rem;
-  margin: 1.25rem 0 0;
+  max-width: 28rem;
+  font-size: 1rem;
+  margin: 0.35rem 0 0;
 }
 
 .hero-actions {
@@ -220,7 +218,7 @@ a {
 
 .hero-visual {
   position: relative;
-  min-height: 38rem;
+  min-height: 26rem;
   border-radius: 2.5rem;
   overflow: hidden;
   background:
@@ -295,7 +293,7 @@ a {
   position: absolute;
   right: 2.4rem;
   bottom: 2.4rem;
-  max-width: 15rem;
+  max-width: 12rem;
 }
 
 .hero-note p {
@@ -324,7 +322,7 @@ a {
 .curve-a {
   width: 22rem;
   height: 10rem;
-  bottom: 8rem;
+  bottom: 6rem;
   left: 3rem;
 }
 
@@ -335,6 +333,10 @@ a {
 .newsletter,
 .article-related {
   padding: 3rem 0;
+}
+
+.top-latest {
+  padding-top: 0.5rem;
 }
 
 .section-heading {
@@ -597,7 +599,8 @@ a {
 
   .site-header {
     position: static;
-    background: transparent;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(10, 22, 21, 0.98), rgba(15, 34, 32, 0.97));
     backdrop-filter: none;
   }
 
