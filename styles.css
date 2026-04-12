@@ -189,7 +189,7 @@ a {
   padding: 0.9rem 1rem 0.7rem;
   border: 1px solid rgba(17, 25, 24, 0.08);
   border-radius: 1.7rem;
-  background: linear-gradient(180deg, #ece8e1 0%, #e2ddd5 100%);
+  background: linear-gradient(180deg, #d7d9d8 0%, #c7ccca 100%);
   box-shadow: 0 18px 42px rgba(17, 25, 24, 0.08);
 }
 
@@ -267,6 +267,10 @@ a {
 
 .top-latest {
   padding-top: 0.5rem;
+}
+
+.top-latest .section-heading {
+  margin-bottom: 1rem;
 }
 
 .section-heading {
