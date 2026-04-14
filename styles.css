@@ -57,9 +57,9 @@ body.philosophy-page::before {
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(180deg, rgba(255, 255, 255, 0.22), rgba(255, 255, 255, 0.04)),
-    url("philosophy-wallpaper.svg") center top / 100% 100% no-repeat;
-  opacity: 0.82;
+    linear-gradient(180deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.02)),
+    url("philosophy-wallpaper-strong.svg") center top / 100% 100% no-repeat;
+  opacity: 0.98;
   pointer-events: none;
   z-index: 0;
 }
