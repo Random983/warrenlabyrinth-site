@@ -1,0 +1,44 @@
+<svg width="960" height="720" viewBox="0 0 960 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gold" x1="120" y1="40" x2="860" y2="690" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6E4713"/>
+      <stop offset="0.18" stop-color="#E8C56B"/>
+      <stop offset="0.34" stop-color="#FFF2C4"/>
+      <stop offset="0.5" stop-color="#B77922"/>
+      <stop offset="0.7" stop-color="#F3D98C"/>
+      <stop offset="1" stop-color="#7A4F17"/>
+    </linearGradient>
+    <linearGradient id="goldSoft" x1="160" y1="100" x2="790" y2="610" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFF4D2"/>
+      <stop offset="0.5" stop-color="#C89334"/>
+      <stop offset="1" stop-color="#FFF0B8"/>
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="960" height="720" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#5B3810" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#shadow)">
+    <rect x="102" y="74" width="756" height="572" rx="42" fill="url(#gold)"/>
+    <rect x="144" y="116" width="672" height="488" rx="26" fill="#FBF6EA" stroke="url(#goldSoft)" stroke-width="20"/>
+
+    <rect x="116" y="88" width="728" height="544" rx="30" stroke="url(#goldSoft)" stroke-width="10" opacity="0.75"/>
+    <rect x="132" y="104" width="696" height="512" rx="22" stroke="#7A4C12" stroke-width="5" opacity="0.35"/>
+
+    <path d="M186 104C206 48 262 40 308 74C354 20 430 18 480 64C530 18 606 20 652 74C698 40 754 48 774 104" stroke="url(#goldSoft)" stroke-width="28" stroke-linecap="round"/>
+    <path d="M186 616C206 672 262 680 308 646C354 700 430 702 480 656C530 702 606 700 652 646C698 680 754 672 774 616" stroke="url(#goldSoft)" stroke-width="28" stroke-linecap="round"/>
+    <path d="M116 170C58 190 50 246 84 292C30 338 28 414 74 464C34 512 42 576 102 602" stroke="url(#goldSoft)" stroke-width="28" stroke-linecap="round"/>
+    <path d="M844 170C902 190 910 246 876 292C930 338 932 414 886 464C926 512 918 576 858 602" stroke="url(#goldSoft)" stroke-width="28" stroke-linecap="round"/>
+
+    <g fill="url(#goldSoft)" stroke="#7A4C12" stroke-width="4">
+      <path d="M480 42C500 70 520 84 554 92C520 100 500 116 480 146C460 116 440 100 406 92C440 84 460 70 480 42Z"/>
+      <path d="M480 678C500 650 520 636 554 628C520 620 500 604 480 574C460 604 440 620 406 628C440 636 460 650 480 678Z"/>
+      <path d="M112 360C140 340 154 320 162 286C170 320 186 340 216 360C186 380 170 400 162 434C154 400 140 380 112 360Z"/>
+      <path d="M848 360C820 340 806 320 798 286C790 320 774 340 744 360C774 380 790 400 798 434C806 400 820 380 848 360Z"/>
+      <path d="M184 98C206 112 228 118 254 116C236 134 228 154 226 184C210 162 190 150 162 146C182 134 192 118 184 98Z"/>
+      <path d="M776 98C754 112 732 118 706 116C724 134 732 154 734 184C750 162 770 150 798 146C778 134 768 118 776 98Z"/>
+      <path d="M184 622C206 608 228 602 254 604C236 586 228 566 226 536C210 558 190 570 162 574C182 586 192 602 184 622Z"/>
+      <path d="M776 622C754 608 732 602 706 604C724 586 732 566 734 536C750 558 770 570 798 574C778 586 768 602 776 622Z"/>
+    </g>
+  </g>
+</svg>
