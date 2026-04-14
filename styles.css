@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=UnifrakturCook:wght@700&display=swap");
 
 :root {
   --bg: #f4efe8;
@@ -58,6 +58,76 @@ body.philosophy-page::before {
 body.philosophy-page > * {
   position: relative;
   z-index: 1;
+}
+
+body.philosophy-essay-page {
+  background: #000;
+  color: #f4f0ea;
+}
+
+body.philosophy-essay-page .article-meta,
+body.philosophy-essay-page .article-body p,
+body.philosophy-essay-page .article-body li,
+body.philosophy-essay-page .philosophy-essay-link span:last-child,
+body.philosophy-essay-page .philosophy-essay-home {
+  color: rgba(244, 240, 234, 0.8);
+  font-family: "Cormorant Garamond", "Fraunces", serif;
+}
+
+body.philosophy-essay-page .eyebrow,
+body.philosophy-essay-page .post-meta {
+  color: rgba(244, 240, 234, 0.56);
+}
+
+body.philosophy-essay-page .article-header h1,
+body.philosophy-essay-page .article-body h2,
+body.philosophy-essay-page .philosophy-essay-link strong {
+  color: #fffdf8;
+  font-family: "Cormorant Garamond", "Fraunces", serif;
+  letter-spacing: -0.01em;
+}
+
+body.philosophy-essay-page .article-header h1 {
+  font-size: clamp(3rem, 6vw, 5.4rem);
+}
+
+body.philosophy-essay-page .article-lead {
+  font-size: 1.4rem;
+  line-height: 1.45;
+}
+
+body.philosophy-essay-page .article-body {
+  border: none;
+  background: transparent;
+  box-shadow: none;
+  border-radius: 0;
+  padding: 0;
+}
+
+body.philosophy-essay-page .article-body h2 {
+  margin-top: 2.6rem;
+  font-size: clamp(2rem, 3vw, 2.9rem);
+}
+
+body.philosophy-essay-page .article-body p,
+body.philosophy-essay-page .article-body li {
+  font-size: 1.34rem;
+  line-height: 1.72;
+}
+
+body.philosophy-essay-page .article-back {
+  color: rgba(255, 255, 255, 0.88);
+}
+
+body.philosophy-essay-page .article-related {
+  padding-top: 1rem;
+}
+
+body.philosophy-essay-page .philosophy-essay-link,
+body.philosophy-essay-page .philosophy-essay-home {
+  background: rgba(255, 255, 255, 0.04);
+  border-color: rgba(255, 255, 255, 0.11);
+  box-shadow: none;
 }
 
 a {
