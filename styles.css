@@ -154,6 +154,25 @@ a {
   font-weight: 600;
 }
 
+.top-nav .nav-philosophy {
+  padding: 0.58rem 1rem;
+  border-radius: 999px;
+  background: linear-gradient(180deg, #ff4a4a 0%, #da1e28 100%);
+  color: #fff;
+  box-shadow: 0 10px 22px rgba(191, 25, 38, 0.28);
+}
+
+.top-nav .nav-philosophy:hover,
+.top-nav .nav-philosophy:focus-visible {
+  background: linear-gradient(180deg, #ff5b5b 0%, #c91822 100%);
+  color: #fff;
+}
+
+.top-nav a:hover,
+.top-nav a:focus-visible {
+  color: #fff;
+}
+
 .site-header .eyebrow {
   color: rgba(247, 242, 234, 0.5);
 }
@@ -697,6 +716,21 @@ a {
 
 .stocks-shell {
   padding-top: 2rem;
+}
+
+.philosophy-shell {
+  grid-template-columns: minmax(0, 1100px);
+  padding-top: 2rem;
+}
+
+.philosophy-directory {
+  width: 100%;
+}
+
+.philosophy-intro {
+  max-width: 42rem;
+  margin: 0.45rem 0 2rem;
+  color: var(--muted);
 }
 
 .stocks-directory {
