@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap");
+
 :root {
   --bg: #f4efe8;
   --bg-soft: #fbf8f2;
@@ -121,6 +123,26 @@ a {
   font-size: 1.2rem;
 }
 
+.brand-mark-ticker {
+  font-family: "Manrope", sans-serif;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.brand-mark-ticker.is-up {
+  background: linear-gradient(135deg, #0f5746, #1f9d73);
+}
+
+.brand-mark-ticker.is-down {
+  background: linear-gradient(135deg, #631d1d, #c43737);
+}
+
+.brand-mark-ticker.is-flat {
+  background: linear-gradient(135deg, #4c5453, #7b8583);
+}
+
 .eyebrow,
 .hero-tag,
 .feature-label,
@@ -162,10 +184,23 @@ a {
 
 .nav-philosophy-link {
   justify-self: center;
+  font-family: "UnifrakturCook", "Fraunces", serif;
+  font-size: 1.45rem;
   font-weight: 800;
-  letter-spacing: 0.01em;
+  line-height: 1;
+  letter-spacing: 0.02em;
   color: #ff4f4f;
   text-shadow: 0 0 14px rgba(255, 79, 79, 0.18);
+}
+
+.nav-economy-link {
+  color: #55c67d;
+  text-shadow: 0 0 14px rgba(85, 198, 125, 0.18);
+}
+
+.nav-economy-link:hover,
+.nav-economy-link:focus-visible {
+  color: #84dea2;
 }
 
 .nav-philosophy-link:hover,
@@ -735,6 +770,46 @@ a {
 .philosophy-intro {
   max-width: 42rem;
   margin: 0.45rem 0 2rem;
+  color: var(--muted);
+}
+
+.economy-eyebrow {
+  color: #2a7d55;
+}
+
+.about-columns {
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1.4rem;
+}
+
+.about-quote-block {
+  display: grid;
+  gap: 0.9rem;
+}
+
+.about-rule {
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: var(--line);
+}
+
+.about-quote {
+  margin: 0;
+  text-align: center;
+  font-family: "Fraunces", serif;
+  font-size: clamp(1.05rem, 2vw, 1.35rem);
+  line-height: 1.45;
+  color: #3f3120;
+}
+
+.about-quote cite {
+  display: block;
+  margin-top: 0.55rem;
+  font-style: normal;
+  font-size: 0.84rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
   color: var(--muted);
 }
 

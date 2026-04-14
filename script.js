@@ -67,3 +67,32 @@ async function loadWorldNews() {
 
 loadWorldNews();
 window.setInterval(loadWorldNews, 15 * 60 * 1000);
+
+const brandMarkTicker = document.querySelector("[data-brand-mark-ticker]");
+
+async function loadBrandMarkTicker() {
+  if (!brandMarkTicker) return;
+
+  try {
+    const response = await fetch("/api/spx-signal", { cache: "no-store" });
+
+    if (!response.ok) {
+      throw new Error(`Request failed with ${response.status}`);
+    }
+
+    const payload = await response.json();
+    const direction = payload.direction || "flat";
+
+    brandMarkTicker.classList.remove("is-up", "is-down", "is-flat");
+    brandMarkTicker.classList.add(`is-${direction}`);
+    brandMarkTicker.textContent = "SPX";
+    brandMarkTicker.setAttribute("aria-label", `S&P 500 signal ${direction}`);
+    brandMarkTicker.title = payload.label || "S&P 500";
+  } catch (_error) {
+    brandMarkTicker.classList.remove("is-up", "is-down");
+    brandMarkTicker.classList.add("is-flat");
+    brandMarkTicker.textContent = "SPX";
+  }
+}
+
+loadBrandMarkTicker();
