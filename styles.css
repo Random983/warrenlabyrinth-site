@@ -60,7 +60,15 @@ body.philosophy-page > * {
   z-index: 1;
 }
 
+body.about-page {
+  min-height: 100svh;
+  background:
+    radial-gradient(circle at 12% 8%, rgba(255, 255, 255, 0.14), transparent 26%),
+    linear-gradient(180deg, #f6efe5 0%, #efe1cf 56%, #e7d4bf 100%);
+}
+
 body.philosophy-essay-page {
+  --philosophy-measure: 46rem;
   background: #000;
   color: #f4f0ea;
 }
@@ -88,20 +96,25 @@ body.philosophy-essay-page .philosophy-essay-link strong {
 }
 
 body.philosophy-essay-page .article-shell {
-  width: min(calc(100% - 4.5rem), 1260px);
-  grid-template-columns: minmax(0, 920px);
+  width: min(calc(100% - 6rem), 1260px);
+  grid-template-columns: minmax(0, var(--philosophy-measure));
   padding: 3rem 0 2.5rem;
 }
 
+body.philosophy-essay-page .article-shell > article {
+  width: min(100%, var(--philosophy-measure));
+  margin: 0 auto;
+}
+
 body.philosophy-essay-page .article-header {
-  max-width: 920px;
-  margin: 0 auto 2.7rem;
+  max-width: none;
+  margin: 0 0 2.7rem;
 }
 
 body.philosophy-essay-page .article-header h1 {
   max-width: none;
   white-space: nowrap;
-  font-size: clamp(2.6rem, 4.9vw, 5rem);
+  font-size: clamp(2.5rem, 4.15vw, 4.55rem);
 }
 
 body.philosophy-essay-page .article-lead {
@@ -115,8 +128,8 @@ body.philosophy-essay-page .article-body {
   box-shadow: none;
   border-radius: 0;
   padding: 0;
-  max-width: 41rem;
-  margin: 0 auto;
+  max-width: none;
+  margin: 0;
 }
 
 body.philosophy-essay-page .article-body h2 {
@@ -739,11 +752,17 @@ a {
 }
 
 .about-page-main {
+  min-height: calc(100svh - 5.5rem);
   padding: 2.5rem 0 4rem;
 }
 
 .about-band {
   margin-bottom: 3rem;
+}
+
+body.about-page .about-band {
+  margin-bottom: 0;
+  padding-bottom: 3.5rem;
 }
 
 .newsletter-form {
@@ -1161,8 +1180,8 @@ body.philosophy-page .article-related-card {
   }
 
   body.philosophy-essay-page .article-shell {
-    width: min(calc(100% - 2.5rem), 1260px);
-    grid-template-columns: minmax(0, 820px);
+    width: min(calc(100% - 3.5rem), 1260px);
+    grid-template-columns: minmax(0, 42rem);
   }
 
   body.philosophy-essay-page .article-header h1 {
