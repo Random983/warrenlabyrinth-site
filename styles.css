@@ -85,9 +85,9 @@ a {
 }
 
 .site-header {
-  display: flex;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
   align-items: center;
-  justify-content: space-between;
   gap: 1.5rem;
   padding: 1.1rem 0;
   position: sticky;
@@ -106,6 +106,7 @@ a {
   display: flex;
   align-items: center;
   gap: 1rem;
+  justify-self: start;
 }
 
 .brand-mark {
@@ -149,23 +150,27 @@ a {
   flex-wrap: wrap;
 }
 
+.top-nav {
+  justify-self: end;
+  align-items: center;
+}
+
 .top-nav a {
   color: rgba(247, 242, 234, 0.8);
   font-weight: 600;
 }
 
-.top-nav .nav-philosophy {
-  padding: 0.58rem 1rem;
-  border-radius: 999px;
-  background: linear-gradient(180deg, #ff4a4a 0%, #da1e28 100%);
-  color: #fff;
-  box-shadow: 0 10px 22px rgba(191, 25, 38, 0.28);
+.nav-philosophy-link {
+  justify-self: center;
+  font-weight: 800;
+  letter-spacing: 0.01em;
+  color: #ff4f4f;
+  text-shadow: 0 0 14px rgba(255, 79, 79, 0.18);
 }
 
-.top-nav .nav-philosophy:hover,
-.top-nav .nav-philosophy:focus-visible {
-  background: linear-gradient(180deg, #ff5b5b 0%, #c91822 100%);
-  color: #fff;
+.nav-philosophy-link:hover,
+.nav-philosophy-link:focus-visible {
+  color: #ff7a7a;
 }
 
 .top-nav a:hover,
@@ -772,8 +777,15 @@ a {
   .site-header {
     position: static;
     width: 100%;
+    grid-template-columns: 1fr;
+    justify-items: start;
     background: linear-gradient(180deg, rgba(10, 22, 21, 0.98), rgba(15, 34, 32, 0.97));
     backdrop-filter: none;
+  }
+
+  .nav-philosophy-link,
+  .top-nav {
+    justify-self: start;
   }
 
   .hero {
