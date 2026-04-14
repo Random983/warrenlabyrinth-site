@@ -44,6 +44,31 @@ body {
   line-height: 1.6;
 }
 
+body.philosophy-page {
+  position: relative;
+  background:
+    radial-gradient(circle at 12% 6%, rgba(96, 87, 65, 0.08), transparent 26%),
+    radial-gradient(circle at 88% 18%, rgba(118, 110, 93, 0.06), transparent 24%),
+    linear-gradient(180deg, #f7efdf 0%, #efe2cc 48%, #e3d2b8 100%);
+}
+
+body.philosophy-page::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.22), rgba(255, 255, 255, 0.04)),
+    url("philosophy-wallpaper.svg") center top / 100% 100% no-repeat;
+  opacity: 0.82;
+  pointer-events: none;
+  z-index: 0;
+}
+
+body.philosophy-page > * {
+  position: relative;
+  z-index: 1;
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -771,6 +796,13 @@ a {
   max-width: 42rem;
   margin: 0.45rem 0 2rem;
   color: var(--muted);
+}
+
+body.philosophy-page .post-card,
+body.philosophy-page .article-body,
+body.philosophy-page .article-related-card {
+  background: rgba(255, 250, 242, 0.6);
+  backdrop-filter: blur(1px);
 }
 
 .economy-eyebrow {
