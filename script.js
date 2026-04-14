@@ -32,7 +32,6 @@ function renderWorldNews(items) {
 
   worldNewsStatus.textContent = "Source: BBC World";
   worldNewsList.innerHTML = items
-    .slice(0, 3)
     .map((item) => {
       const meta = [item.category, item.published].filter(Boolean).join(" | ");
 
