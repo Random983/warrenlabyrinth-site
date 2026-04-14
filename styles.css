@@ -171,8 +171,9 @@ a {
 
 .hero-copy {
   padding-left: 0;
-  max-width: 44rem;
-  justify-self: center;
+  width: 100%;
+  max-width: none;
+  justify-self: stretch;
 }
 
 .world-news-panel {
