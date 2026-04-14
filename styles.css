@@ -835,52 +835,52 @@ a {
 }
 
 .chain-link-1 {
-  top: 18%;
-  left: 18%;
-  width: 17%;
-  transform: rotate(13deg);
+  top: 38.4%;
+  left: 22.6%;
+  width: 22.8%;
+  transform: rotate(0deg);
 }
 
 .chain-link-2 {
-  top: 20%;
-  left: 44%;
-  width: 19%;
-  transform: rotate(-10deg);
+  top: 16.6%;
+  left: 50%;
+  width: 18.8%;
+  transform: rotate(90deg);
 }
 
 .chain-link-3 {
-  top: 32%;
-  left: 26%;
-  width: 14%;
-  transform: rotate(63deg);
+  top: 38.4%;
+  left: 54.6%;
+  width: 20.2%;
+  transform: rotate(0deg);
 }
 
 .chain-link-4 {
-  top: 31%;
-  left: 61%;
-  width: 14%;
-  transform: rotate(59deg);
+  top: 42.6%;
+  left: 50%;
+  width: 16.2%;
+  transform: rotate(90deg);
 }
 
 .chain-link-5 {
-  top: 56%;
-  left: 26%;
-  width: 20%;
-  transform: rotate(14deg);
+  top: 45.8%;
+  left: 46.2%;
+  width: 16.6%;
+  transform: rotate(126deg);
 }
 
 .chain-link-6 {
-  top: 56%;
-  left: 52%;
-  width: 17%;
-  transform: rotate(-17deg);
+  top: 45.8%;
+  left: 53.8%;
+  width: 16.6%;
+  transform: rotate(54deg);
 }
 
 .chain-link-7 {
-  top: 72%;
-  left: 36%;
-  width: 23%;
-  transform: rotate(-8deg);
+  top: 38.4%;
+  left: 82.8%;
+  width: 8.4%;
+  transform: rotate(0deg);
 }
 
 .philosophy-bubble {
@@ -941,14 +941,14 @@ a {
     0 1.35rem 3rem rgba(0, 0, 0, 0.46);
 }
 
-.bubble-1 { top: 18%; left: 17%; }
-.bubble-2 { top: 24%; left: 39%; }
-.bubble-3 { top: 17%; left: 64%; }
-.bubble-4 { top: 45%; left: 26%; }
-.bubble-5 { top: 56%; left: 49%; }
-.bubble-6 { top: 41%; left: 73%; }
-.bubble-7 { top: 76%; left: 32%; }
-.bubble-8 { top: 77%; left: 69%; }
+.bubble-1 { top: 39%; left: 78%; }
+.bubble-2 { top: 63%; left: 50%; }
+.bubble-3 { top: 39%; left: 18%; }
+.bubble-4 { top: 14%; left: 50%; }
+.bubble-5 { top: 39%; left: 50%; }
+.bubble-6 { top: 39%; left: 92%; }
+.bubble-7 { top: 78%; left: 40%; }
+.bubble-8 { top: 78%; left: 60%; }
 
 @keyframes bubble-float {
   0%, 100% {
@@ -956,7 +956,7 @@ a {
   }
 
   50% {
-    transform: translate(-50%, -50%) translateY(-0.75rem);
+    transform: translate(-50%, -50%) translateY(-0.28rem);
   }
 }
 
@@ -1177,20 +1177,20 @@ body.philosophy-page .article-related-card {
     font-size: 1.2rem;
   }
 
-  .bubble-1 { top: 14%; left: 24%; }
-  .bubble-2 { top: 28%; left: 60%; }
-  .bubble-3 { top: 14%; left: 78%; }
-  .bubble-4 { top: 45%; left: 26%; }
-  .bubble-5 { top: 54%; left: 66%; }
-  .bubble-6 { top: 39%; left: 82%; }
-  .bubble-7 { top: 76%; left: 35%; }
-  .bubble-8 { top: 83%; left: 72%; }
+  .bubble-1 { top: 31%; left: 79%; }
+  .bubble-2 { top: 54%; left: 50%; }
+  .bubble-3 { top: 31%; left: 21%; }
+  .bubble-4 { top: 13%; left: 50%; }
+  .bubble-5 { top: 31%; left: 50%; }
+  .bubble-6 { top: 31%; left: 91%; }
+  .bubble-7 { top: 76%; left: 39%; }
+  .bubble-8 { top: 76%; left: 61%; }
 
-  .chain-link-1 { top: 19%; left: 27%; width: 25%; transform: rotate(25deg); }
-  .chain-link-2 { top: 18%; left: 60%; width: 13%; transform: rotate(-11deg); }
-  .chain-link-3 { top: 33%; left: 28%; width: 16%; transform: rotate(66deg); }
-  .chain-link-4 { top: 33%; left: 66%; width: 13%; transform: rotate(54deg); }
-  .chain-link-5 { top: 58%; left: 30%; width: 25%; transform: rotate(14deg); }
-  .chain-link-6 { top: 56%; left: 58%; width: 16%; transform: rotate(-19deg); }
-  .chain-link-7 { top: 77%; left: 43%; width: 20%; transform: rotate(-10deg); }
+  .chain-link-1 { top: 30.3%; left: 26%; width: 19.2%; transform: rotate(0deg); }
+  .chain-link-2 { top: 16.2%; left: 50%; width: 12.8%; transform: rotate(90deg); }
+  .chain-link-3 { top: 30.3%; left: 54.8%; width: 18%; transform: rotate(0deg); }
+  .chain-link-4 { top: 35.5%; left: 50%; width: 13.8%; transform: rotate(90deg); }
+  .chain-link-5 { top: 38.4%; left: 45.4%; width: 15.2%; transform: rotate(126deg); }
+  .chain-link-6 { top: 38.4%; left: 54.6%; width: 15.2%; transform: rotate(54deg); }
+  .chain-link-7 { top: 30.3%; left: 84%; width: 6.2%; transform: rotate(0deg); }
 }
