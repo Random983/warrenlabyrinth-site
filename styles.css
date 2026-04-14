@@ -815,77 +815,9 @@ a {
   pointer-events: none;
 }
 
-.philosophy-chain-layer {
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-}
-
-.chain-link {
-  position: absolute;
-  height: 1.15rem;
-  opacity: 0.72;
-  transform-origin: left center;
-  background:
-    radial-gradient(closest-side, transparent 55%, rgba(227, 232, 246, 0.68) 60% 76%, transparent 81%) 0 0 / 2rem 1.15rem repeat-x,
-    radial-gradient(closest-side, transparent 55%, rgba(125, 135, 160, 0.5) 60% 76%, transparent 81%) 1rem 0 / 2rem 1.15rem repeat-x;
-  filter:
-    drop-shadow(0 0 5px rgba(255, 255, 255, 0.06))
-    drop-shadow(0 0 14px rgba(129, 141, 169, 0.12));
-}
-
-.chain-link-1 {
-  top: 38.4%;
-  left: 22.6%;
-  width: 22.8%;
-  transform: rotate(0deg);
-}
-
-.chain-link-2 {
-  top: 16.6%;
-  left: 50%;
-  width: 18.8%;
-  transform: rotate(90deg);
-}
-
-.chain-link-3 {
-  top: 38.4%;
-  left: 54.6%;
-  width: 20.2%;
-  transform: rotate(0deg);
-}
-
-.chain-link-4 {
-  top: 42.6%;
-  left: 50%;
-  width: 16.2%;
-  transform: rotate(90deg);
-}
-
-.chain-link-5 {
-  top: 45.8%;
-  left: 46.2%;
-  width: 16.6%;
-  transform: rotate(126deg);
-}
-
-.chain-link-6 {
-  top: 45.8%;
-  left: 53.8%;
-  width: 16.6%;
-  transform: rotate(54deg);
-}
-
-.chain-link-7 {
-  top: 38.4%;
-  left: 82.8%;
-  width: 8.4%;
-  transform: rotate(0deg);
-}
-
 .philosophy-bubble {
   position: absolute;
-  width: clamp(5.75rem, 8vw, 7.4rem);
+  width: clamp(4.5rem, 6vw, 5.8rem);
   aspect-ratio: 1;
   border-radius: 50%;
   display: grid;
@@ -897,7 +829,7 @@ a {
     rgba(255, 255, 255, 0.06);
   color: #fcfcff;
   font-family: "Fraunces", serif;
-  font-size: clamp(1.35rem, 2vw, 1.85rem);
+  font-size: clamp(1.05rem, 1.6vw, 1.45rem);
   letter-spacing: 0.04em;
   box-shadow:
     inset 0 0 0 1px rgba(255, 255, 255, 0.12),
@@ -941,14 +873,14 @@ a {
     0 1.35rem 3rem rgba(0, 0, 0, 0.46);
 }
 
-.bubble-1 { top: 39%; left: 78%; }
-.bubble-2 { top: 63%; left: 50%; }
-.bubble-3 { top: 39%; left: 18%; }
-.bubble-4 { top: 14%; left: 50%; }
-.bubble-5 { top: 39%; left: 50%; }
-.bubble-6 { top: 39%; left: 92%; }
-.bubble-7 { top: 78%; left: 40%; }
-.bubble-8 { top: 78%; left: 60%; }
+.bubble-1 { top: 19%; left: 16%; }
+.bubble-2 { top: 28%; left: 43%; }
+.bubble-3 { top: 18%; left: 76%; }
+.bubble-4 { top: 49%; left: 24%; }
+.bubble-5 { top: 57%; left: 54%; }
+.bubble-6 { top: 39%; left: 87%; }
+.bubble-7 { top: 78%; left: 35%; }
+.bubble-8 { top: 73%; left: 72%; }
 
 @keyframes bubble-float {
   0%, 100% {
@@ -1173,24 +1105,16 @@ body.philosophy-page .article-related-card {
   }
 
   .philosophy-bubble {
-    width: 5.2rem;
-    font-size: 1.2rem;
+    width: 4.35rem;
+    font-size: 1rem;
   }
 
-  .bubble-1 { top: 31%; left: 79%; }
-  .bubble-2 { top: 54%; left: 50%; }
-  .bubble-3 { top: 31%; left: 21%; }
-  .bubble-4 { top: 13%; left: 50%; }
-  .bubble-5 { top: 31%; left: 50%; }
-  .bubble-6 { top: 31%; left: 91%; }
-  .bubble-7 { top: 76%; left: 39%; }
-  .bubble-8 { top: 76%; left: 61%; }
-
-  .chain-link-1 { top: 30.3%; left: 26%; width: 19.2%; transform: rotate(0deg); }
-  .chain-link-2 { top: 16.2%; left: 50%; width: 12.8%; transform: rotate(90deg); }
-  .chain-link-3 { top: 30.3%; left: 54.8%; width: 18%; transform: rotate(0deg); }
-  .chain-link-4 { top: 35.5%; left: 50%; width: 13.8%; transform: rotate(90deg); }
-  .chain-link-5 { top: 38.4%; left: 45.4%; width: 15.2%; transform: rotate(126deg); }
-  .chain-link-6 { top: 38.4%; left: 54.6%; width: 15.2%; transform: rotate(54deg); }
-  .chain-link-7 { top: 30.3%; left: 84%; width: 6.2%; transform: rotate(0deg); }
+  .bubble-1 { top: 15%; left: 18%; }
+  .bubble-2 { top: 27%; left: 58%; }
+  .bubble-3 { top: 15%; left: 81%; }
+  .bubble-4 { top: 46%; left: 24%; }
+  .bubble-5 { top: 56%; left: 64%; }
+  .bubble-6 { top: 38%; left: 83%; }
+  .bubble-7 { top: 77%; left: 34%; }
+  .bubble-8 { top: 78%; left: 72%; }
 }
