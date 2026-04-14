@@ -181,7 +181,7 @@ a {
   width: 100%;
   min-height: 272px;
   max-height: 272px;
-  padding: 1.2rem;
+  padding: 1rem 1.1rem;
   overflow: hidden;
   background: center / 100% 100% no-repeat url("ornate-frame.svg");
   filter: drop-shadow(0 18px 34px rgba(67, 43, 12, 0.14));
@@ -189,7 +189,7 @@ a {
 
 .world-news-inner {
   position: absolute;
-  inset: 3.1rem 3rem;
+  inset: 2.55rem 2.45rem;
   border-radius: 0.9rem;
   background: linear-gradient(180deg, rgba(255, 251, 242, 0.98), rgba(245, 238, 223, 0.94));
   box-shadow:
