@@ -653,6 +653,10 @@ a {
   gap: 2rem;
 }
 
+.about-page-main {
+  padding: 2.5rem 0 4rem;
+}
+
 .about-band {
   margin-bottom: 3rem;
 }
