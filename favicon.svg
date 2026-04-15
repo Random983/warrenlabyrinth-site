@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-labelledby="faviconTitle faviconDesc">
+  <title id="faviconTitle">Warren Labyrinth favicon</title>
+  <desc id="faviconDesc">Dark green circular favicon with the letter W.</desc>
+  <defs>
+    <linearGradient id="faviconGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#142021" />
+      <stop offset="100%" stop-color="#10645c" />
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="120" fill="url(#faviconGradient)" />
+  <path d="M56 72h20l18 58 18-58h17l18 58 18-58h20l-30 96h-16l-19-60-19 60H86L56 72Z" fill="#fffaf3" />
+</svg>
